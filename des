@@ -1,0 +1,16 @@
+'''
+Programa que calcula o gasto de tinta por m²
+By: Ricardo Rodrigues Soares
+Phone: +55 11 95593 9797
+E-mail: rcddigital.it@gmail.com / ri.rodriguesoares@gmail.com
+'''
+print("Calculadora de descontos")
+
+
+
+p = float(input("Qual é o preço do produto: "))
+d = int(input('Qual é o desconto: '))
+v = (p*d/100)
+print(f"O desconto é de R$ {v:.3}\nO valor final com o desconto é R$ {p-v:.4}\n\n")
+
+print("Boas compras")
